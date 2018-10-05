@@ -9,7 +9,7 @@
 		 <script type="text/javascript" src="../three.js-master/examples/js/controls/DragControls.js"></script>
 		 <script type="text/javascript" src="../three.js-master/examples/js/controls/TrackballControls.js"></script>
 		 <script type="text/javascript" src="../three.js-master/examples/js/renderers/Projector.js"></script>
-		 <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
 		 <script src="../threex.dynamictexture-master/threex.dynamictexture.js"></script>
 		 <script src="../threex.dynamictexture-master/threex.dynamictext2dobject.js"></script>
 		 
@@ -73,8 +73,8 @@
 			 <!-- <script src="game.js" type="text/javascript" align= "left"> -->
 			 <script src="game.js" type="text/javascript">
 				 Sockets
-					 socket = io.connect('http://localhost:9000');
-					 //socket = io.connect('ec2-34-205-146-82.compute-1.amazonaws.com:9000');
+					 //socket = io.connect('http://localhost:9000');
+					 socket = io.connect('ec2-34-205-146-82.compute-1.amazonaws.com:9000');
 			 </script>
 			 <!-- The Text variables for the game -->
 			
